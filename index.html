@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>MTS</title>
+	<!--ESTILOS GENERALES-->
+	<link rel="stylesheet" type="text/css" href="css/popup.min.css">
+</head>
+<body>
+
+    <!--popup-->
+    <section class="popup-general">
+        <div class="popup-general__content">
+            <div class="popup-img">
+                <div class="popup-img__close close-popup-img">
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="images/image-popup1.jpg">
+            </div>
+        </div>
+        <div class="popup-general__bg bg-popup"></div>
+    </section>
+    <!--/popup-->
+
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $('.close-popup-img, .bg-popup').click( function() {
+        $('.popup-general').fadeOut()
+    })
+</script>
+</body>
+</html>
